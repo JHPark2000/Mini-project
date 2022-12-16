@@ -1,6 +1,6 @@
 library(dplyr)
 library(readxl)
-library(Benchmarking)
+library(Benchmarking) # To DEA
 
 DEA_data <- read_excel("C:/Users/parkj/Desktop/DEA.xlsx")
 DEA_data <- data.frame(DEA_data)
